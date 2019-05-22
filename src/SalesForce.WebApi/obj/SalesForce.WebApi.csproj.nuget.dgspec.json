@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/bi000968/Documents/DEV/SalesForce.WebApi/src/SalesForce.WebApi/SalesForce.WebApi.csproj": {}
+  },
+  "projects": {
+    "/Users/bi000968/Documents/DEV/SalesForce.WebApi/src/SalesForce.WebApi/SalesForce.WebApi.csproj": {
+      "version": "0.0.1.45",
+      "restore": {
+        "projectUniqueName": "/Users/bi000968/Documents/DEV/SalesForce.WebApi/src/SalesForce.WebApi/SalesForce.WebApi.csproj",
+        "projectName": "SalesForce.WebApi",
+        "projectPath": "/Users/bi000968/Documents/DEV/SalesForce.WebApi/src/SalesForce.WebApi/SalesForce.WebApi.csproj",
+        "packagesPath": "/Users/bi000968/.nuget/packages/",
+        "outputPath": "/Users/bi000968/Documents/DEV/SalesForce.WebApi/src/SalesForce.WebApi/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/bi000968/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "http://10.0.0.163:8081/repository/nuget-hosted": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {},
+          "https://nexus.sharedservices.local/repository/inter-nuget-releases": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": [
+            "NETStandard.Library"
+          ]
+        }
+      }
+    }
+  }
+}
