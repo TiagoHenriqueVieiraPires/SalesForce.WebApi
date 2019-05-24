@@ -10,7 +10,7 @@ using SalesForce.WebApi.Interfaces;
 using SalesForce.WebApi.Models;
 using Newtonsoft.Json;
 
-namespace Inter.Crm.IntegracaoAutbank.Repository
+namespace SalesForce.WebApi
 {
     public partial class CrmWebApi : ICrmWebApi
     {
