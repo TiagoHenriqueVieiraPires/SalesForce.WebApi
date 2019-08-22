@@ -75,6 +75,13 @@ namespace SalesForce.WebApi
             var response = await httpClient.GetAsync(url);
             return await response.Content.ReadAsStringAsync();
         }
+        public async Task<string> RetrieveSigleAsync(string table, string id)
+        {
+            httpClient = _baseAuthorization.GetHttpCliente();
+            var url = $"{ApiUrl}services/data/v45.0/sobjects/{table}/{id}";
+            var response = await httpClient.GetAsync(url);
+            return await response.Content.ReadAsStringAsync();
+        }
         public async Task<string> UpsertAsync(string table, string externalKey, dynamic data, string id)
         {
             var context = JsonConvert.SerializeObject(data);
