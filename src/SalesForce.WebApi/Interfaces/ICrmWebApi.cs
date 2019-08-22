@@ -13,6 +13,7 @@ namespace SalesForce.WebApi.Interfaces
         Task<string> UpdateAsync(string table, string externalKey, dynamic data, string id);
         Task<string> UpdateAsync(dynamic data, string table, string id);
         Task<string> RetrieveSigleAsync(string table, string externalKey, string id);
+        Task<string> RetrieveSigleAsync(string table, string id);
         Task<string> RetrieveMultipleAsync(string query);
         Task<string> UpsertAsync(string table, string externalKey, dynamic data, string id);
         Task<JobResponse> CreateJobAsync(JobRequest jobRequest);
