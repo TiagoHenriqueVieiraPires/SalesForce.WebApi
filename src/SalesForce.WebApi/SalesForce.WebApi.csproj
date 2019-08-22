@@ -2,7 +2,7 @@
 
  <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <Version>0.0.45.8</Version>
+    <Version>0.0.45.10</Version>
     <Authors>Tiago Pires</Authors>
   </PropertyGroup>
 
