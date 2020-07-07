@@ -1,9 +1,0 @@
-/Users/bi000968/Documents/DEV/SalesForce.WebApi/src/SalesForce.WebApi/bin/Debug/netstandard2.1/SalesForce.WebApi.deps.json
-/Users/bi000968/Documents/DEV/SalesForce.WebApi/src/SalesForce.WebApi/bin/Debug/netstandard2.1/SalesForce.WebApi.dll
-/Users/bi000968/Documents/DEV/SalesForce.WebApi/src/SalesForce.WebApi/bin/Debug/netstandard2.1/SalesForce.WebApi.pdb
-/Users/bi000968/Documents/DEV/SalesForce.WebApi/src/SalesForce.WebApi/obj/Debug/netstandard2.1/SalesForce.WebApi.csprojAssemblyReference.cache
-/Users/bi000968/Documents/DEV/SalesForce.WebApi/src/SalesForce.WebApi/obj/Debug/netstandard2.1/SalesForce.WebApi.csproj.CoreCompileInputs.cache
-/Users/bi000968/Documents/DEV/SalesForce.WebApi/src/SalesForce.WebApi/obj/Debug/netstandard2.1/SalesForce.WebApi.AssemblyInfoInputs.cache
-/Users/bi000968/Documents/DEV/SalesForce.WebApi/src/SalesForce.WebApi/obj/Debug/netstandard2.1/SalesForce.WebApi.AssemblyInfo.cs
-/Users/bi000968/Documents/DEV/SalesForce.WebApi/src/SalesForce.WebApi/obj/Debug/netstandard2.1/SalesForce.WebApi.dll
-/Users/bi000968/Documents/DEV/SalesForce.WebApi/src/SalesForce.WebApi/obj/Debug/netstandard2.1/SalesForce.WebApi.pdb

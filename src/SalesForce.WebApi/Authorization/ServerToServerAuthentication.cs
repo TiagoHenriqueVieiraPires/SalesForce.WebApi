@@ -6,7 +6,7 @@ using Newtonsoft.Json;
 
 namespace SalesForce.WebApi.Authorization
 {
-    public class CrmServerToServerAuthentication : CrmBaseAuthorization
+    public class ServerToServerAuthentication : BaseAuthorization
     {
         private readonly string _clientId;
         private readonly string _crmBaseUrl;
@@ -15,10 +15,10 @@ namespace SalesForce.WebApi.Authorization
         private readonly string _userName;
         private readonly string _password;
         private readonly string _securityToken;
-    
-        private CrmAuthenticationResult AuthenticationResult;
 
-        public CrmServerToServerAuthentication(string crmConnectionString)
+        private AuthenticationResult AuthenticationResult;
+
+        public ServerToServerAuthentication(string crmConnectionString)
         {
             var keys = GetConectionStringValues(crmConnectionString);
             _clientId = keys["clientId"];
@@ -31,7 +31,7 @@ namespace SalesForce.WebApi.Authorization
             AuthenticationResult = null;
         }
 
-        public CrmServerToServerAuthentication(string clientId, string clientSecret, string baseUrl, string grantType, string userName, string password, string securityToken)
+        public ServerToServerAuthentication(string clientId, string clientSecret, string baseUrl, string grantType, string userName, string password, string securityToken)
         {
             _clientId = clientId;
             _crmBaseUrl = baseUrl;
@@ -73,7 +73,7 @@ namespace SalesForce.WebApi.Authorization
             result.EnsureSuccessStatusCode();
 
             string resultContent = result.Content.ReadAsStringAsync().GetAwaiter().GetResult();
-            AuthenticationResult = JsonConvert.DeserializeObject<CrmAuthenticationResult>(resultContent);
+            AuthenticationResult = JsonConvert.DeserializeObject<AuthenticationResult>(resultContent);
         }
 
         public string GetCrmBaseUrl()

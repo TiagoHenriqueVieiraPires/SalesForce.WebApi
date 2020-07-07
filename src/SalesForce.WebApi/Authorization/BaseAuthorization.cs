@@ -3,13 +3,13 @@ using System.Net.Http;
 
 namespace SalesForce.WebApi.Authorization
 {
-    public abstract class CrmBaseAuthorization
+    public abstract class BaseAuthorization
     {
         protected HttpClient httpClient;
         protected HttpClientHandler handler;
         public TimeSpan Timeout { get; set; }
 
-        public CrmBaseAuthorization()
+        public BaseAuthorization()
         {
             handler = new HttpClientHandler();
             handler.UseCookies = false;
@@ -19,7 +19,7 @@ namespace SalesForce.WebApi.Authorization
 
         public abstract void RefreshCredentials();
 
-        public HttpClient GetHttpCliente()
+        public virtual HttpClient GetHttpCliente()
         {
             RefreshCredentials();
             return httpClient;
