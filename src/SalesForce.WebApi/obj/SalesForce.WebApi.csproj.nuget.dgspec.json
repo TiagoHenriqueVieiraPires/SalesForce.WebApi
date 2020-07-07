@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\root\\Documents\\SalesForce.WebApi\\src\\SalesForce.WebApi\\SalesForce.WebApi.csproj": {}
+    "c:\\Users\\root\\Documents\\SalesForce.WebApi\\src\\SalesForce.WebApi\\SalesForce.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\root\\Documents\\SalesForce.WebApi\\src\\SalesForce.WebApi\\SalesForce.WebApi.csproj": {
+    "c:\\Users\\root\\Documents\\SalesForce.WebApi\\src\\SalesForce.WebApi\\SalesForce.WebApi.csproj": {
       "version": "0.0.48.8",
       "restore": {
-        "projectUniqueName": "C:\\Users\\root\\Documents\\SalesForce.WebApi\\src\\SalesForce.WebApi\\SalesForce.WebApi.csproj",
+        "projectUniqueName": "c:\\Users\\root\\Documents\\SalesForce.WebApi\\src\\SalesForce.WebApi\\SalesForce.WebApi.csproj",
         "projectName": "SalesForce.WebApi",
-        "projectPath": "C:\\Users\\root\\Documents\\SalesForce.WebApi\\src\\SalesForce.WebApi\\SalesForce.WebApi.csproj",
+        "projectPath": "c:\\Users\\root\\Documents\\SalesForce.WebApi\\src\\SalesForce.WebApi\\SalesForce.WebApi.csproj",
         "packagesPath": "C:\\Users\\root\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\root\\Documents\\SalesForce.WebApi\\src\\SalesForce.WebApi\\obj\\",
+        "outputPath": "c:\\Users\\root\\Documents\\SalesForce.WebApi\\src\\SalesForce.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
