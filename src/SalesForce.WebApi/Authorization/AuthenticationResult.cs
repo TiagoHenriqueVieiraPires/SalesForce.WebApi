@@ -3,14 +3,14 @@ using Newtonsoft.Json;
 
 namespace SalesForce.WebApi.Authorization
 {
-    public class CrmAuthenticationResult
+    public class AuthenticationResult
     {
         [JsonProperty(PropertyName = "access_token")]
         public string AccessToken { get; set; }
 
         [JsonProperty(PropertyName = "instance_url")]
         public string InstanceUrl { get; set; }
-        
+
         [JsonProperty(PropertyName = "id")]
         public string Id { get; set; }
 
@@ -21,12 +21,12 @@ namespace SalesForce.WebApi.Authorization
         public string IssuedAt { get; set; }
 
         [JsonProperty(PropertyName = "signature")]
-        public string Sßignature { get; set; }
+        public string Signature { get; set; }
 
         public bool IsValid()
         {
             var nowUnixTimeStamp = ConvertToUnixTimestamp(DateTime.Now);
-            return nowUnixTimeStamp < Convert.ToDouble(IssuedAt) ;
+            return nowUnixTimeStamp < Convert.ToDouble(IssuedAt);
         }
 
         public static double ConvertToUnixTimestamp(DateTime date)
@@ -35,5 +35,6 @@ namespace SalesForce.WebApi.Authorization
             TimeSpan diff = date.ToUniversalTime() - origin;
             return Math.Floor(diff.TotalSeconds);
         }
+
     }
 }
